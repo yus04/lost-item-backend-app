@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Python Functions",
+            "type": "python",
+            "request": "attach",
+            "port": 9091,
+            "preLaunchTask": "func: host start",
+            "env": {
+                "AZURE_OPENAI_API_VERSION": "2023-05-15",
+                "AZURE_OPENAI_SERVICE": "lost-item-app-openai",
+                "AZURE_OPENAI_TOKEN": "0cb6b64f14ff4586ad0718c325facc59",
+                "GPT_DEPLOYMENT": "gpt-4-vision-preview"
+              }
+        }
+    ]
+}
